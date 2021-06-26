@@ -1,0 +1,29 @@
+Variable: es un lugar reservado en donde se guardan valores o datos que se ingresan por el 
+teclado, y que pueden ir cambiando en el transcurso del programa
+
+Strings: es un tipo de variable que me permite almacenar datos en forma de texto, ej: nombre,
+dirección, apellido, etc.
+
+Funciones: son porciones de código "encerrado" en un nombre que puede ser ejecutado
+simplemente invocando ese nombre. Una función pueden recibir argumentos, que son variables
+que luego utilizará dentro del código que se escribió. Una función puede que tenga que retornar
+un resultado y para eso se hace uso de la instrucción return. Ej: return a+b, en cado que a y b
+sean argumentos.
+
+if: es una declaración (código) usado para evaluar algo dentro de un código. Por ejemplo, si queremos
+saber el valor que contiene una determinada variable, "x", se puede hacer de esta manera:
+var x=4;
+if(x>4){
+   return 1;
+}else{
+   return 0;
+}
+
+Valores booleanos: son solo dos tipos 'true' o 'false', verdadero o falso, pero no pueden
+contener otro valor. Ej: si tomamos el ejemplo anterior se podría hacer de la siguiente manera:
+var x=4;
+if(x>4){
+   return true;
+}else{
+   return false;
+}
