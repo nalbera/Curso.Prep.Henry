@@ -64,6 +64,7 @@ function dePalabrasAFrase(palabras) {
     concatenado=concatenado+palabras[i]+" ";
     
   }
+  concatenado=concatenado.substring(0,concatenado.length - 1);
   return concatenado;
 }
 
