@@ -60,7 +60,7 @@ function nuevoUsuario(nombre, email, password) {
   var obj = {
     nombre:nombre,
     email:email,
-    password:password,
+    password:password
   };
   return obj;
 }
