@@ -56,9 +56,10 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
   var nuevovector = [];
-  for (var i=0,i<array.length;i++){
-    if (array[i][0]==='a'){
-      nuevovector[i]=array[i];
+  for (var i=0;i<array.length;i++){
+    if (array[i][0]==="a"){
+      //nuevovector[i]=array[i];
+      nuevovector.push(array[i]);
     }
   }
   return nuevovector;
